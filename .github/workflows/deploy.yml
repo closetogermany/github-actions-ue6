@@ -4,6 +4,8 @@ on:
     branches:
       - main
       - dev
+env:
+  
 jobs:
   test:
     environment: testing
@@ -29,5 +31,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output information
-        run: |        
+        run: |
           echo "..."
